@@ -10,7 +10,7 @@ ReactDOM.render(
   </ul>,
   document.getElementById("myList")
 );
-
+// 1.REACT IS COMPOSABLE
 /* CREATING A COMPONENT
 1. We create a function with the name of the component we are creating, the function name should start with uppercase letter.
 2. It should return the content that we want to display on our page
@@ -29,3 +29,18 @@ ReactDOM.render(
   </div>,
   document.getElementById("root")
 );
+
+// #########################################
+// #########################################
+// #########################################
+// 2.REACT IS DECLARATIVE(WHAT SHOULD BE DONE)
+// JSX-Javascript xml
+// ReactDOM.render(<h1>Hello, React!, I have to learn you by force</h1>, document.getElementById("root"));
+// VANILLA js is imperative(how should things be done)
+/* Recreate the above line of code using vanilla js
+append an h1 element the div with an id of root(without using innerHTML)
+ */
+const h1 = document.createElement("h1");
+h1.textContent = "This is an imperative way to program"
+h1.className='header'
+document.getElementById("root").append(h1)
