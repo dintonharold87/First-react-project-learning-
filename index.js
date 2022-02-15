@@ -66,3 +66,7 @@ const navbar = (
   </nav>
 );
 ReactDOM.render(navbar, document.getElementById("myNavBar"));
+
+/* CREATING CUSTOM COMPONENTS
+1. We have to use pascalCase naming covention(capitalize the first letter of each word in the component name)
+2. We call the function in angle barackets as if writing html(<DintaineComponent />) */
